@@ -1,0 +1,45 @@
+#banner {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+  }  
+
+  .topic {margin-top: 20vh;}
+  .topic h1 {font-size: 4em;}
+  .topic p {width: 25em;}
+
+  #search-field .form-control.rounded-pill{
+    border-top-right-radius:0 !important;
+    border-bottom-right-radius:0 !important;
+    border-right:none !important
+}
+#search-field .form-control:focus{
+    box-shadow:none !important;
+}
+#search-field .form-control:focus + .input-group-append .input-group-text{
+    border-color: #86b7fe !important
+}
+#search-field .input-group-text.rounded-pill{
+    border-top-left-radius:0 !important;
+    border-bottom-left-radius:0 !important;
+    border-right:left !important
+}
+
+.card-text {
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;  
+overflow: hidden;
+}
+
+.post-item .card-body{
+    outline-offset: -1px;
+    transition:all .5s ease-in-out;
+}
+.post-item .card-body:hover{
+    outline: 1px solid rgb(0, 0, 0);
+}

@@ -1,0 +1,223 @@
+/* Header */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&family=Prompt:wght@200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+.navigation-bar {border-bottom: 1px solid rgb(222, 222, 222);}
+.contact-header { background:#ffd000!important;}
+.contact-header , nav {color: #000 !important;}
+nav {background-color: white !important;}
+nav,p {font-size: 16px; letter-spacing: -0.5px;}
+ul  {padding: 0 2rem;list-style-type: none;}
+  .nav-item { padding: 0;line-height: 3;}
+  .nav-item a{font-size: 1.2em; color: rgb(0, 0, 0);}
+  .navbar-expand-md .navbar-nav .nav-link{ padding: 5px 10px;}
+  .nav-item a:hover { color: rgb(0, 0, 0);}
+  .navbar{ padding: 0;}
+  #top li{ padding: 0;line-height: 1.8;}
+  #top li a{ font-size: 16px;padding: 0;}
+  #top li a:hover{background: none;text-decoration: none;}
+  .col-md-2 .fab{font-size: 20px;padding-right: 10px; padding-top: 5px;padding-left: 10px; }
+  .navbar-brand img{height: 60px;}
+  .navbar-toggler{color: rgb(0, 0, 0);}
+  .fas:hover,.fab:hover{color: #d1b519;}
+  .ownbg{ background: #ffffff!important; box-shadow: 0 0.2rem 1rem rgba(80, 80, 80, 0.2);}
+  @media(max-width: 992px){.col-md-2 .fab{font-size: 18px; padding-right: 0;}}
+  @media(max-width: 768px){
+    #top{display: none;}
+    .navbar-brand img{ height: 50px;}
+    .navbar-dark .navbar-toggler{ outline: none; border-color: rgba(255, 255, 255, 0);}
+    ul,li{padding: 0;text-align: center;}
+    .navbar-nav{ padding-bottom: 40px; }
+  }
+  
+  .navbar ul.navbar-nav li a:hover,
+  .navbar ul.navbar-nav li.active a {
+    color: black !important; 
+  }       
+
+
+  @media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{   }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+  }	
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-toggler {
+    background-color: #000;
+    border-color: rgb(0, 0, 0);
+  } 
+
+.social-md {color: #000; fill: #000;}
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+
+
+/* ============ mobile view .end// ============ */
+.megamenu, .dropdown-large{padding:1rem !important;}
+.dropdown-large, .dropdown-menu-end { box-shadow: rgb(0, 0, 0, 0.1) 3px 5px 7px;}
+.dropdown-large h6 {text-decoration: underline;}
+.megamenu h6 {text-decoration: underline;}
+.megamenu ,.dropdown-large, .dropdown ul li {line-height: 2em;}
+
+
+		/* ============ desktop view ============ */
+		@media all and (min-width: 992px) {
+			.dropdown-large{min-width: 500px !important;}
+		}	
+		/* ============ desktop view .end// ============ */
+
+.user-btn {
+  background-color: #ffd000 !important;
+  white-space: nowrap; 
+  width: 160px; 
+  overflow: hidden;
+  text-overflow: ellipsis; }
+.nav-item .btn {padding:  0.5em 2em;}
+
+@media only screen and (max-width: 991px) {
+  .submit-btn {
+    width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 997px) {
+  .bread-crump, .nav-point {
+    white-space: nowrap; 
+    width:700px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .bread-crump, .nav-point {
+      white-space: nowrap; 
+      width:500px; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+      }
+    }
+    @media only screen and (max-width: 517px) {
+      .bread-crump, .nav-point {
+        white-space: nowrap; 
+        width:250px; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+      }
+.bread-crump a {color: #000;}   
+
+.navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .title {
+  font-size: 14px;
+}
+
+#banner {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*background-size: cover;
+  background-attachment: fixed;*/
+  background-position: center;
+  background-blend-mode: overlay;
+  color: white;
+} 
+.topic {margin-top: 20vh;}
+  .topic h1 {font-size: 4em; color:white;}
+  .topic h5 {color: #ffffff;}
+  .topic p {width: 25em;}
+
+  
+  .icon-badge-group .icon-badge-container {
+    display: inline-block;
+    margin-left:15px;
+}
+  .icon-badge-group .icon-badge-container:first-child { 
+    margin-left:0
+  }
+  
+  .icon-badge-container {
+      margin-top:0px;
+      position:relative;
+  }
+  
+  .icon-badge-icon {
+      font-size: 30px;
+      position: relative;
+  }
+  
+  .icon-badge {
+      background-color: red;
+      font-size: 12px;
+      color: white;
+      text-align: center;
+      width:18px;
+      height:18px;
+      border-radius: 35%;
+      position: absolute; /* changed */
+      top: 1px; /* changed */
+      left: 10px; /* changed */
+  }
+
+
+  label {
+    display: inline-block;
+    width: 5em;
+    text-align: right;
+  }
+  
+  /* Hide the file input using
+  opacity */
+  [type=file] {
+      position: absolute;
+      filter: alpha(opacity=0);
+      opacity: 0;
+  }
+  input,[type=file] + label {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    position: relative;
+  }
+  [type=file] + label {
+    text-align: left;
+    /* Decorative */
+    background: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  [type=file] + label:hover {
+    background: #dadada;
+  }

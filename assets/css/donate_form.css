@@ -1,0 +1,39 @@
+#banner {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background-size: cover;
+    background-attachment: fixed;*/
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+  } 
+
+.topic {margin-top: 20vh;}
+.topic h1 {font-size: 4em;}
+.topic p {width: 25em;}
+
+body {
+    background-color: rgb(245, 245, 245) !important;
+    font-family:Rubik,sans-serif;
+    font-weight:400;
+    font-size:15px
+  }
+
+  .fa-solid {font-size: 1.5em;}
+  .donate-content {background-color: white;}
+  .donate-form h2 {padding: 30px;}
+  .second-step .second-step-content {padding: 30px;}
+  .donate-method .option-1, .option-2 ,.option-3 {
+    box-shadow: 0px 10px 30px 0px rgb(233, 233, 233);
+  }
+  .donate-method i {align-items: center;}
+  .donate-method .text-center {padding: 2em; vertical-align: middle;}
+  .donate-method .option-1,.option-2 {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid gainsboro;
+  }
+  .form-group {
+    padding: 0.5em 0;
+  }

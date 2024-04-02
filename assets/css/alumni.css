@@ -1,0 +1,48 @@
+#banner {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background-size: cover;
+    background-attachment: fixed;*/
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+  }  
+
+.topic {margin-top: 20vh;}
+.topic h1 {font-size: 4em;}
+.topic p {width: 25em;}
+
+body {
+    background-color: rgb(245, 245, 245) !important;
+}
+table thead {
+    padding: 1em;
+}
+
+.filter-form {
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 5px 5px rgb(238, 238, 238);
+}
+form .form-inline .form-select {
+    padding-right: 2.5em;
+}
+.alumni-table {
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 5px 5px rgb(238, 238, 238);
+}
+
+.how-to-use {
+    padding: 1em;
+    background-color: rgb(243, 228, 210);
+    border-radius: 0.4em;
+}
+.how-to-use p {
+    line-height: 0.5rem;
+}
+

@@ -1,0 +1,36 @@
+.hof_rand {
+    padding: 3em 0 4em 0;
+  }
+
+  .ymal a {color: #000;}
+
+.ymal a {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  margin:auto;
+}
+
+.ymal a img {
+  transform: scale(1.0);
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+
+.ymal a img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.ymal a img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.empty-cart {
+    margin: 8em 0;
+}

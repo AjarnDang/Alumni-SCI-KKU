@@ -1,0 +1,92 @@
+
+#banner {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*background-size: cover;
+  background-attachment: fixed;*/
+  background-position: center;
+  background-blend-mode: overlay;
+  color: white;
+}  
+
+.topic {margin-top: 20vh;}
+.topic h1 {font-size: 4em;}
+.topic p {width: 25em;}
+
+  /*Footer*/
+  @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+  
+  body {
+    background-color: rgb(245, 245, 245) !important;
+    font-family:Rubik,sans-serif;
+    font-weight:400;
+    font-size:15px
+  }
+
+  .fa-solid {font-size: 1.5em;}
+  .donate-form, .donate-method {background-color: rgb(255, 255, 255);}
+  .donate-form h2 {padding: 30px;}
+  .donate-method .option-1, .option-2 ,.option-3 {
+    box-shadow: 0px 10px 30px 0px rgb(233, 233, 233);
+  }
+  .donate-method i {align-items: center;}
+  .donate-method .text-center {padding: 2em; vertical-align: middle;}
+  .donate-method .option-1,.option-3 {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid gainsboro;
+  }
+
+  .first-step .first-step-content {padding: 30px;} 
+  .first-step .first-step-content .choose-donate img {
+    height: fit-content;
+    width: 8vh;
+    object-fit: cover;
+    vertical-align:middle
+  }
+  .first-step .first-step-content .choose-donate {
+    padding: 1em 0;
+  }
+  @media(max-width: 992px) {
+    .first-step .first-step-content .choose-donate img {
+      margin-bottom: 1em;
+    } 
+  }
+
+  hr {
+    height: 1px;
+    background-color: rgb(182, 182, 182);
+    margin:0;
+  }
+
+.btn {
+  background: #ffd000 !important;
+  color: #000000 !important;
+  outline: 1px;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-style: solid;
+  border-color:1px solid #000000;
+  transition: all .5s;
+}
+
+  .btn:hover {
+      background: transparent !important;
+      border-color: #000000;
+      color: #000000 !important;
+  }
+
+  .btn-moreinfo {
+    background: #ffffff !important;
+    border:1px solid #000000 !important;
+    padding: 8px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all .5s;
+  }
+
+  .btn-moreinfo:hover {
+    background-color: #d8b518 !important;
+  }

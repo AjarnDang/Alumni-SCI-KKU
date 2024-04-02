@@ -1,0 +1,163 @@
+/* Header */
+#banner {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*background-size: cover;
+  background-attachment: fixed;*/
+  background-position: center;
+  background-blend-mode: overlay;
+}  
+
+.topic {margin-top: 15vh;}
+.topic h1 {
+  font-size: 4em;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.topic p {width: 25em;}
+
+@media only screen and (max-width: 997px) {
+.nav-point {
+  white-space: nowrap; 
+  width:700px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nav-point {
+    white-space: nowrap; 
+    width:500px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+  }
+.nav-point a {
+  color: #000;
+}
+.news-img-1 {
+  height: max-content;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.news-detail {
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.related-news-detail a {
+ color: black;
+}
+
+a.news_ac_name {
+  white-space: nowrap;  
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.datetime {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.datetime svg {
+  vertical-align: middle;
+  align-items: center;
+}
+
+time.icon {
+  font-size: 1em; /* change icon size */
+  display: inline-block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+}
+time.icon * {
+  display: inline-block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong {
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #fd9f1b;
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+
+time.icon em {
+  position: absolute;
+  bottom: 0.3em;
+  color: #fd9f1b;
+}
+
+time.icon span {
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
+
+.activity-type p {
+  line-height: 1em;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+     
+.ymal a {color: #000;}
+
+.ymal a {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  margin:auto;
+}
+
+.ymal a img {
+  transform: scale(1.0);
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+
+.ymal a img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.ymal a img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.hof_rand {
+  padding: 3em 0 4em 0;
+}
+
+.media {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.media p {
+  opacity: 0.7;
+}
